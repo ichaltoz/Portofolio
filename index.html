@@ -17,37 +17,37 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Work</a>
+                <a class="nav-link" href="#work">Work</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>                 
             </ul>
           </div>
         </div>
     </nav>
     <section id="home" class="home container">
-      <div class="row d-flex align-items-center">
-        <div class="col-8">
+      <div class="row d-flex align-items-center flex-md-row flex-column-reverse">
+        <div class="col-12 col-md-8">
           <h3 class="fw-semibold">Hi ! I am</h3>
           <h1 class="fw-bold">Muhammad Rizal</h1>
           <p>I am a IT Engineer based in Palu-Indonesia</p>
            <a class="btn" href="images/Resume.pdf" download>Resume</a>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-md-4 d-flex justify-content-md-end justify-content-center">
           <img src="images/potraitme.png" alt="Potrait">
         </div>
       </div>
-      <div class="arrow w-100 d-flex align-items-center flex-column mt-5">
-        <a class="text-decoration-none text-dark" href="#about">More Info</a>
+      <a href="#about" class="text-decoration-none arrow w-100 d-flex align-items-center flex-column mt-5">
+        <div class="text-dark" >More Info</div>
         <img id="arrow" class="mt-2" src="images/arrow.svg" alt="arrow icon">
-      </div>
+      </a>
     </section>
     <section id="about" class="about container">
       <p>Hallo Saya Muhammad Rizal, Saya adalah lulusan dari STMIK BINA MULIA PALU dengan predikat sangat memuaskan. Saya memiliki kemampuan melakukan dan mengawasi kegiatan instalasi dan pelayanan peralatan yang terkait dengan jaringan fiber optic, Mampu menggunakan alat ukur seperti OTDR (Optical Time Domain Reflectometer), Splicer, OFI (Optical Fiber Identifier), dan OPM (Optical Power Meter) untuk mendeteksi dan menganalisa gangguan pada fiber optik. Saya juga mampu mengoperasikan serta maintenance perangkat computer. Dan sekarang saya aktif di dunia Telekomunikasi sebagai Teknisi Jaringan Fiber Optik untuk sebuah perusahaan telekomunikasi terbesar di indonesia.</p>
@@ -86,10 +86,10 @@
     </section>
     <section id="work" class="work container">
       <div class="row d-flex align-items-center gap-5">
-        <div class="col">
+        <div class="col-12 col-md-5">
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit qui vitae eaque nisi, quia doloremque tempora cupiditate corrupti ab ut aliquam eveniet iste fuga, expedita aliquid at magnam commodi a. Velit ipsam quod animi distinctio officia magnam ab eaque quasi earum asperiores accusamus, recusandae natus. Explicabo exercitationem iusto voluptatibus saepe?</p>
         </div>
-        <div class="col work-img gap-2">
+        <div class="col-12 col-md-6 work-img gap-2">
           <div id="work-1" class="work-img-item">
             <img src="images/work-1.png" alt="work-1">
           </div>
@@ -104,24 +104,24 @@
     </section>
     <section id="contact" class="contact container ">
       <div class="row d-flex align-items-center gap-5">
-        <div class="col">
+        <div class="col-12 col-lg-6">
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, quis suscipit possimus facilis nulla corporis maxime voluptate sed ab nemo reiciendis voluptatibus fuga neque repudiandae nam fugiat doloremque laboriosam deleniti ullam ipsam doloribus? Adipisci error eveniet autem laudantium? Ratione cupiditate cum quam molestiae vitae rem dolorem repellat minima sunt neque?</p>
           <div class="row">
             <div class="col d-flex align-items-center">
-              <img src="images/Facebook.svg" alt="Facebook Icon">
-              <p>Ichaltoz</p>
+              <img class="w-25" src="images/Facebook.svg" alt="Facebook Icon">
+              <p class="mb-0 ms-2">Ichaltoz</p>
             </div>
             <div class="col d-flex align-items-center">
-              <img src="images/Instagram.svg" alt="Instagram Icon">
-              <p>@ichaltoz</p>
+              <img class="w-25" src="images/Instagram.svg" alt="Instagram Icon">
+              <p class="mb-0 ms-2">@ichaltoz</p>
             </div>
             <div class="col d-flex align-items-center">
-              <img src="images/Twitter.svg" alt="Twitter Icon">
-              <p>@AbuAlphatoz</p>
+              <img class="w-25" src="images/Twitter.svg" alt="Twitter Icon">
+              <p class="mb-0 ms-2">@AbuAlphatoz</p>
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-12 col-lg-5 ">
           <form class="contact-form" onsubmit="onFormSubmit(event)">
             <div class="mb-3">
               <label for="inp_email" class="form-label">Email address</label>
